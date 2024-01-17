@@ -212,7 +212,24 @@ nav li a {
 	width: 89px;
 	margin: 20px 0;
  }
-
+ .banner-icon-item {
+	position: relative;
+ }
+ .banner-icon-item i {
+	color: rgba(19, 19, 24, 0.50);
+	position: absolute;
+	bottom: 0;
+	top: 38px;
+	left: 721px;
+ }
+ .angle i {
+	color: rgba(19, 19, 24, 0.50);
+	right: 515px;
+ }
+ .angle2 i {
+	right: 267px;
+	color: rgba(19, 19, 24, 0.50);
+ }
  .section-item img{
      width: 100%;
  }
@@ -290,7 +307,6 @@ nav li a {
 	position: absolute;
 	color: #fff;
 	bottom: 0;
-	/* left: 368px; */
 	justify-content: space-around;
 	top: 114px;
 	padding: 0 113px;
@@ -449,6 +465,8 @@ nav li a {
 }
 .simple {
 	display: flex;
+	padding-top: 70px;
+
 }
 .simple-title {
 	width: 733px;
@@ -582,29 +600,61 @@ font-weight: 800;
 	color: #131318;
  }
 
+
+ /* Responsive */
  @media screen and (max-width: 576px) {
 	.header-area {
-          padding: 20px;
+          padding: 20px 0;
      }
+	.ggg {
+		padding: 0;
+	 }
      nav {
           flex-direction: column;
+		margin: 0;
      }
+	nav > ul {
+		margin: 20px 0;
+	 }
+	 nav li a {
+		font-size: 13px;
+	 }
 	.section-item{
 		grid-template-columns: repeat(1, 1fr);
-	
 	 }
 	 .banner-title input {
-          grid-template-columns: 1fr;
-	 }
+		padding: 16px;
+		border-radius: 5px;
+		border: none;
+		margin: 21px 0px;
+		width: 150px;
+
+	}
 	 .section-item{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-
 	 }
-	 .section-item{
-	justify-content: center;
-
+	 .banner-icon-item i {
+		color: rgba(19, 19, 24, 0.50);
+		position: absolute;
+		bottom: 0;
+		top: 38px;
+		left: 354px;
 	 }
+
+	 .card-items-container img {
+		width: 100%;
+		padding: 10px 0;
+	 }
+	 .card-items-container h2 {
+		position: absolute;
+		color: #fff;
+		bottom: 0;
+		justify-content: space-around;
+		top: 140px;
+		left: 112px;
+		padding: 0;	 
+	}
 	 .section-item img{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
@@ -618,16 +668,139 @@ font-weight: 800;
 		display: inline;
 	 }
 	 .Bangladesh img {
-		/* display: grid; */
 		width: 100%;
+		padding: 10px 0;
+	 }
+	 .Bangladesh h2 {
+		position: absolute;
+		color: #fff;
+		padding: 0;
 	 }
 	 .srilanka img {
 		width: 100%;
+		padding: 10px 0;
 	 }
+	 .srilanka h2 {
+		position: absolute;
+		color: #fff;
+		padding: 78px 0px;
+		left: 99px;
+	 }
+	 .newsletter {
+		padding: 0px;
+		width: 100%;
+	 }
+	 .newsletter {
+		display: inline;
+	 }
+
+	 .newsletter input {
+		 width: 325px;
+		padding: 11px;
+		border-radius: 8px;
+		background: rgba(19, 19, 24, 0.05);
+		border: none;
+	 }
+	 .btn-long {
+		background: #FF5400;
+		color: #fff;
+		padding: 13px 25px;
+		text-align: center;
+		width: 300px;
+		margin: 10px 0;
+	 }
+	 .news {
+		display: block;
+	 }
+	 .simple {
+		display: block;
+	 }
+	 .simple-img img {
+		width: 100%;
+		padding: 10px 0;
+	 }
+	 .simple-img img {
+		width: 100%;
+	 }
+	 .news-img img {
+		width: 100%;
+		padding: 20px 0;
+	 }
+	 .secton-hotel {
+		margin: 0;
+	 }
+	 .hotel-color {
+		display: block;
+	 }
+	 .hotel-4 {
+         margin: 0px;
+        padding: 30px;
+     }
+.hotel-color-2 {
+	padding: 10px 0;
+ }
+.simple-title h2 {
+   width: 100%;
+ }
+ .simple-title p {
+	width: 100%;
+   }
+   .simple-title p {
+	width: 100%;
+ }
+   .simple-title {
+	margin: 0;
+	width: 100%;
+ }
+   .simple-title h6 {
+	width: 100%;
+   }
+   hr {
+	width: 286px;
+ }
 	 .section-item3 {
 		display: inline;
 		grid-template-columns: repeat(3, 1fr);
 		justify-content: space-evenly;
 		position: relative;
 	 }
+	 .water-content {
+          padding: 0;
+		margin: 0;
+		width: 78%;
+	
+	 }
+	 .water-area img {
+		width: 100%;
+		margin: 0px;
+	 }
+	 .icon-area {
+		padding: 0;
+	 }
+	 
+element.style {
+}
+.water-content P {
+    width: 100%;
+    font-size: 10px;
+    margin: 0;
+}
+.btn {
+	font-size: 12px;
+	padding: 9px 8px;
+	width: 90px;
  }
+ .price {
+	font-size: 12px;
+ }
+ .water-content h2 {
+	font-size: 16px;
+ }
+ .icon-area h6 {
+	padding: 0;
+ }
+
+
+
+
+}
